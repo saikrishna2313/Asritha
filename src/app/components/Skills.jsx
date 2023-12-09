@@ -42,12 +42,12 @@ const Skills = () => (
 
                 <h1 className="text-2xl font-bold text-center  max-sm:text-lg  uppercase py-5 w-full shadow-xl">My Works</h1>
             </div>
-            <section className='flex  gap-10 items-center max-sm:flex-col justify-center px-20  max-sm:px-3'>
+            <section className='flex  gap-10 items-center max-sm:flex-col justify-center sm:px-30  max-sm:px-3'>
 
                 <section>
                     <Image src={about} width={300} height={300} className='h-[400px] w-[400px] object-cover' />
                 </section>
-                <div className="container  p-4">
+                <div className="">
 
                     <div className="flex flex-wrap items-center justify-center">
                         {data.projects.map((project, index) => (
