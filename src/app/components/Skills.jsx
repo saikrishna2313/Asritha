@@ -47,9 +47,9 @@ const Skills = () => (
                 <section>
                     <Image src={about} width={300} height={300} className='h-[400px] w-[400px] object-cover' />
                 </section>
-                <div className="container mx-auto p-4">
+                <div className="container  mx-auto p-4">
 
-                    <div className="flex  items-center justify-center">
+                    <div className="flex flex-wrap items-center justify-center">
                         {data.projects.map((project, index) => (
                             <Card key={index} {...project} />
                         ))}
