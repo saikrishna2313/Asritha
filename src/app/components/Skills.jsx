@@ -38,12 +38,12 @@ const Skills = () => (
     <>
         <section id='projects' className='relative'>
 
-            <div className='relative bg-violet-100'>
+            <div className=' bg-violet-100'>
 
                 <h1 className="text-2xl font-bold text-center  max-sm:text-lg  uppercase py-5 w-full shadow-xl">My Works</h1>
             </div>
-            <section className='flex  gap-10 items-center max-sm:flex-col justify-center sm:px-30  max-sm:px-3'>
-
+            <section className='flex relative gap-10 items-center max-sm:flex-col justify-center sm:px-30  max-sm:px-3'>
+<div class="absolute top-0 z-[-2] h-full w-full bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
                 <section>
                     <Image src={about} width={300} height={300} className='h-[400px] w-[400px] object-cover' />
                 </section>
