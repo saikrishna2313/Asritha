@@ -14,7 +14,7 @@ const Home = () => {
     }, [])
     return (
         <section className='w-full relative  flex max-sm:flex-col max-sm:justify-center h-auto max-sm:items-center sm:px-20  sm:items-center py-24 sm:justify-center max-sm:gap-10 sm:gap-10 flex-row-reverse px-3'>
-          <div class="absolute top-0 z-[-2] h-full w-full bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+        <div class="absolute top-0 -z-10 h-full w-full bg-white"><div class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div>
             <section className='sm:py-3  sm:flex-2'>
 
                 <Image src={profile} width={300} height={300} className='max-sm:rounded-full shadow-xl   rounded-full border-4 border-sky-200 w-[400px] h-[400px]  max-sm:w-[230px] max-sm:h-[230px] object-cover' />
