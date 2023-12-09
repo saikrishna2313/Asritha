@@ -28,8 +28,8 @@ const Home = () => {
                 <p className='text-slate-900 max-sm:text-sm'>I’m a dedicated Computer Science student with a passion for technology and problem-solving. I am currently seeking opportunities to apply my skills in real-world scenarios and am eager to contribute to innovative projects.</p>
 
                 <div className='flex gap-2'>
-                    <button className='px-4 text-sm  py-1 bg-sky-400 font-semibold text-white rounded-3xl'><Link href='#about' >About</Link></button>
-                    <button className='px-4 text-sm  py-1 bg-pink-400 text-white font-semibold rounded-3xl'><Link href='#contact' >Contact</Link></button>
+                   <a href='#about' className='px-4 text-sm  py-1 bg-sky-400 font-semibold text-white rounded-3xl' >About</a>
+              <a href='#contact' className='px-4 text-sm  py-1 bg-pink-400 text-white font-semibold rounded-3xl' >Contact</a>
                     <a className='px-4 py-1 text-sm  bg-blue-500 text-white  hover:text-white font-semibold rounded-3xl'
                         href="/resume.pdf"
                         download="resume.pdf"
