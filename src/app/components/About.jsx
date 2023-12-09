@@ -42,7 +42,7 @@ const About = () => {
 
                         <div className="flex flex-col items-start gap-3 justify-center">
                             <p> I am eager to leverage my skills in a dynamic work environment and contribute to impactful projects.</p>
-                            <Link href="https://www.linkedln.com/in/a-v-n-lalitha-kowtharapu-4baa57227/" className='px-4 mt-3 flex ml-2 items-center justify-center rounded-full  text-white gap-2 uppercase text-sm  bg-sky-400 py-1  '><span>Connect</span> <SiLinkedin className='h-6 w-6 ml-2' /></Link>
+                            <a href="https://www.linkedln.com/in/a-v-n-lalitha-kowtharapu-4baa57227/" className='px-4 mt-3 flex ml-2 items-center justify-center rounded-full  text-white gap-2 uppercase text-sm  bg-sky-400 py-1  '><span>Connect</span> <SiLinkedin className='h-6 w-6 ml-2' /></a>
                         </div>
                     </section>
 
